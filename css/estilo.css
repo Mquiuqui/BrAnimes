@@ -4,10 +4,10 @@ body{
 }
 
 .container{
-    width: 1180px;
+    width: 960px;    
     margin: auto;
-
 }
+
 
 header{
     background-color: #000000;
@@ -15,30 +15,27 @@ header{
 }
 
 header .container{
-
     display: flex;
     align-items: center;
-
 }
 
 #logo{
     width: 250px;
-
 }
 
 #logo img{
     width: 100%;
 }
 
+
 #direita{
     flex-grow: 1;
     text-align: center;
-
 }
 
 #direita p{
     letter-spacing: 5px;
-    font-size:  14px;
+    font-size: 14pt;
     font-style: italic;
     font-weight: bold;
 }
@@ -56,6 +53,175 @@ header nav a{
 }
 
 header nav a:hover{
-    background-color: #fffb00;
-    color:#000000;
+    background-color: #ffff00;
+    color: #000000;
 }
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer nav a:hover{
+    color: #ffff00;
+    text-decoration:  overline underline;
+}
+
+main{
+    margin:  auto;
+    width: 960px;
+    min-height: 450px;
+}
+
+main h1{
+    text-align: center;
+}
+
+ .texto_banner{
+     font-size: 30pt;
+     text-align: center;
+     margin: 20px 0px;
+ }
+
+ #assistir{
+     text-decoration: none;
+     background-color: rgb(18, 197, 197);
+     display: block;
+     width: 300px;
+     height: 50px;
+     color: #ffffff;
+     margin: auto;
+     font-size: 18pt;
+     line-height: 50px;
+     border-radius: 20px;
+ }
+
+ .destaque{
+     background-color: rgb(26, 141, 141);
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 5px #000;
+ }
+
+ .destaque div{
+     display: flex;
+ }
+
+ .destaque figure img{
+     width:  150px;
+ }
+
+ #assinar{
+     text-decoration: none;
+     display: block;
+     width: 300px;
+     height: 50px;
+     line-height: 50px;
+     font-size: 18pt;
+     color: #ffffff;
+     margin: auto;
+     border-radius:  20px;
+     background-color: rgb(224, 179, 32);
+ }
+
+ .programacao{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .programacao h3{
+     width: 100%;
+ }
+
+ .programacao article img{
+     width: 150px;
+ }
+
+ .programacao article{
+     width: 50%;
+     display: flex;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+
+ .programacao article section{
+     padding: 30px;
+ }
+
+ #galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ #galeria img{
+     width: 200px;
+     margin: 10px 8px;
+ }
+
+ #destaque_plus{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #destaque_plus p{
+     text-align: center;
+ }
+
+ .planos{
+     width: 300px;
+     text-align: center;
+     margin: 20px auto;
+     border: 2px solid #62df49;
+     border-radius: 50px;
+     padding: 50px;
+ }
+ .planos ul{
+     text-align: left;
+ }
+
+ .planos p span{
+     font-size:  22pt;
+     color: #db9e2c;
+ }
+
+ #contato{
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ input, textarea{
+     display: block;
+     background-color: #cccccc;
+     margin: 20px;
+     padding: 10px;
+     width: 300px;
+     border-radius: 20px;
+     border: none;
+     
+ }
+
+ #contato button{
+     font-size: 18pt;
+     width: 100%;
+     height: 50px;
+     color: #ffffff;
+     background-color: rgb(123, 10, 146);
+     border-radius: 50px;
+     border: none;
+ }
